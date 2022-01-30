@@ -1016,7 +1016,6 @@ ul {
 .footer {
   padding-top: calc(var(--sectionPadding) / 2);
   padding-bottom: calc(var(--sectionPadding) / 2);
-  /* background-image: url(../Images/subscribe.jpg); */
   background-color: black;
   background-size: cover;
   text-align: center;
