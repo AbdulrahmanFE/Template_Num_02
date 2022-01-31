@@ -527,7 +527,6 @@ ul {
     }
   .video .text h3 {
     margin: 10px 0 0;
-
   }
   .video .text p {
     margin: 10px 0;
@@ -574,7 +573,6 @@ ul {
   left: 0;
   background-color: rgb(0 0 0 / 70%);
 }
-
 .stats .container {
   position: relative;
   display: flex;
@@ -1080,7 +1078,6 @@ background-color: rgb(0 0 0 / 70%);
 .footer .social-icons .facebook:hover i{
   color: #3b5998;
 }
-
 .footer p:last-of-type span{
   color: var(--mainColor);
   font-weight: bold;
