@@ -1,7 +1,7 @@
 /* Start Variables */
   :root{
     --mainColor: #19c8fa;
-    --transparentColor: #0f748fb3;
+    --transparentColor: rgb(15 116 143 / 70%);
     --sectionPadding: 100px;
     --mainOpacity: 80%;
   }
@@ -283,7 +283,7 @@ ul {
 }
 .section-heading p {
   margin: 0 auto 100px;
-  width: 500px;
+  width: 550px;
   max-width: 100%;
   line-height: 2;
   opacity: var(--mainOpacity);
@@ -308,12 +308,6 @@ ul {
   }
 }
 @media (max-width: 767px){
-  .srv .srv-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 40px;
-  }
   .srv .srv-container .srv-box {
     display: flex;
     flex-direction: column;
@@ -405,7 +399,7 @@ ul {
 /* Start Portfolio */
 .portfolio {
   padding-top: var(--sectionPadding);
-  padding-bottom: calc(var(--sectionPadding) + 100px);
+  padding-bottom: var(--sectionPadding);
 }
 .portfolio ul {
   display: flex;
@@ -473,9 +467,8 @@ ul {
   padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  width: fit-content;
+  display: block;
   margin: 35px auto;
 }
 /* End Portfolio */
