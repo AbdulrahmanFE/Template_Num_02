@@ -147,9 +147,6 @@
   }
   @media (max-width: 767px) {
     header .main-nav ul {
-      display: none;
-    }
-    header .main-nav .check:checked ~ ul {
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -157,8 +154,17 @@
       left: 0;
       width: 100%;
       background-color: rgb(0 0 0 / 85%);
+      opacity: 0;
+      visibility: hidden;
+      z-index: -111;
+      transition: 0.4s;
     }
-    header .main-nav a{
+    header .main-nav .check:checked ~ ul {
+      opacity: 1;
+      visibility: visible;
+      z-index: 111;
+    }
+    header .main-nav a {
       padding: 15px !important;
     }
   }
